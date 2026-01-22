@@ -16,4 +16,4 @@ jobs:
         env:
           # This pulls from GitHub Secrets and masks it in the logs
           SIGNING_SECRET: ${{ secrets.B12_SIGNING_SECRET }}
-        run: python scripts/submit_application.py
+        run: python main.py
